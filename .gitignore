@@ -1,0 +1,10 @@
+node_modules
+dist
+npm-debug.log
+.DS_Store
+.idea
+.vscode
+*.iml
+.nyc_output
+.pfx
+webapp/coverage
