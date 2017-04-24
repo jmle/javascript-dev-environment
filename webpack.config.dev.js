@@ -2,7 +2,7 @@ import path from 'path';
 
 export default {
   debug: true,
-  devtool: 'inline-source-map',
+  devtool: 'inline-source-map',   // use sourcemaps
   noInfo: false,    // display all files being bundled
   entry: [          // entry point
     path.resolve(__dirname, 'src/index')    // define entry point using node's __dirname
